@@ -57,6 +57,7 @@ h1, h2, h3 {
     color: #FFFFFF;
     font-size: 0.85em;
 }
+
 .introducing a {
     color: #FFFFFF;
 }
@@ -78,7 +79,7 @@ h1, h2, h3 {
     box-shadow: 0 10px 0 rgba(255, 255, 255, 0.15) inset, 0 10px 10px rgba(0, 0, 0, 0.75);
     margin:auto;
     width: 900px;
-    color: #9C9C9C;
+    color: #CCCCCC;
     font-weight: normal;
     font-size: 0.9em;
     margin-top: 20px;
@@ -120,7 +121,7 @@ h1, h2, h3 {
 }
 
 .links a:visited {
-    color: #54435a;
+    color: #FFFFFF;
 }
 
 .role {
