@@ -6,6 +6,7 @@ body {
     top: 0px;
     left: 0px;
     margin: 0px;
+    font-size: 100%;
 }
 h1, h2, h3 {
     color: #181818;
@@ -36,21 +37,30 @@ h1, h2, h3 {
 }
 
 .header-links {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
     list-style-type: none;
     background-color: #2E0B33;
     border-radius: 20px 20px 20px 20px;
     -moz-border-radius: 20px 20px 20px 20px;
     -webkit-border-radius: 20px 20px 20px 20px;
-    margin: auto;
-    width: 255px;
     padding: 3px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
     border-top: 1px solid rgba(219, 219, 219, 0.50);
 }
 
+.header-links ul {
+    padding: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 .header-links li {
     display: inline;
-    margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .header-links a {
@@ -128,4 +138,10 @@ h1, h2, h3 {
     font-size: 0.6em;
     font-weight: lighter;
     font-style: italic;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) { 
+    body { 
+        font-size: 130%;
+    }
 }
