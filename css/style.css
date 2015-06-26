@@ -16,7 +16,6 @@ h1, h2, h3 {
 .header, .footer {
     background-color: #181818;/*#0c092f;*/
     width: 100%;
-    height: 80px;
     color: #E7E7E7;
     border-bottom: 1px solid #FFFFFF;
 }
@@ -40,7 +39,7 @@ h1, h2, h3 {
     width: -moz-fit-content;
     width: -webkit-fit-content;
     width: fit-content;
-    margin: auto;
+    margin: auto auto -25px;
     list-style-type: none;
     background-color: #2E0B33;
     border-radius: 20px 20px 20px 20px;
@@ -142,6 +141,6 @@ h1, h2, h3 {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 667px) { 
     body { 
-        font-size: 130%;
+        font-size: 140%;
     }
 }
